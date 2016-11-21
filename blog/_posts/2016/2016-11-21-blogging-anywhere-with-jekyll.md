@@ -18,5 +18,3 @@ It dawned on me that I could blog anywhere from my phone when I looked at my blo
 Jekyll posts are written in Markdown, which is very simple and easy to write with when you have nothing but your thumbs, using very simple code to specify things like links and headers, and requiring no tags, opening or closing.
 
 All these features combined make for a quick, light setup and easy editing.
-
-## Considerations
