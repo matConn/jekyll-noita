@@ -30,7 +30,7 @@ noita:
     url: http://goodfrontend.com/
   lang: en
   favicons:
-    - /assets/2014/04/21/favicon-152.png
+    - /assets/2014/04/21/temp.png
   topbar:
     toggle: Menu
     right:
