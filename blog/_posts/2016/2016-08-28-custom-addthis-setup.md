@@ -1,7 +1,7 @@
 ---
 title: "Quick and Custom AddThis Setup"
 layout: post
-description: "Getting AddThis sharing set up exactly how I wanted took some digging the first time around. Maybe, like me, you wanted AddThis's functionality but with your own styles, and not the AddThis brand buttons. Here's how I set it up, allowing for full customization."
+description: "Set up AddThis with fully customized styles and sharing capabilities."
 robots: none
 ---
 
