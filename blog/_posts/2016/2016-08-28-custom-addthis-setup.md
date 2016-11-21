@@ -1,7 +1,7 @@
 ---
 title: "Quick and Custom AddThis Setup"
 layout: post
-description: "Set up AddThis with fully customized styles and sharing capabilities."
+description: "Set up AddThis sharing with fully customized styles and capabilities to match your website's design and content needs."
 robots: none
 ---
 
@@ -62,7 +62,7 @@ How you set any of these attributes is entirely up to you; I use JavaScript beca
 Email (not mailto, but AddThis's email sharing) and Facebook sharing stand out amongst all the other platforms here in that they both require a little extra.
 
 If you change the content you want to share to Facebook and it isn't updating, you'll want to paste the url of the page you're sharing into Facebook's sharing debugger.
-While mailto will open your device's default mail client, then populate the subject based on the mailto attributes, "addthis_button_email" populates its fields based on the AddThis config variable (seen below).]
+While mailto will open your device's default mail client, then populate the subject based on the mailto attributes, "addthis_button_email" populates its fields based on the AddThis config variable (seen below).
 ```
 var addthis_config = addthis_config||{};
 addthis_config.ui_email_to = 'recipient@email.com';
