@@ -36,10 +36,7 @@ noita:
     right:
       - name: About
         url: /about/
-      - name: Guide
-        url: /guide/
-      - name: Blog
-        url: /blog/
-      - name: Repository
-        url: https://github.com/matConn/matconn.github.io
-        class: small button
+      - name: Github
+        url: https://github.com/matConn
+      - name: Twitter
+        url: https://twitter.com/matterialdesign
