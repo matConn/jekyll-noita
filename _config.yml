@@ -24,7 +24,7 @@ compress_html:
 # theme
 noita:
   name: Good Frontend
-  description: For good web development
+  description: A blog about web development
   author:
     name: Matthew Connelly
     url: http://goodfrontend.com/
