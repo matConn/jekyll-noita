@@ -23,11 +23,11 @@ compress_html:
     envs: [travis]
 # theme
 noita:
-  name: Noita
-  description: Jekyll theme built with Foundation
+  name: Good Frontend
+  description: For good web development
   author:
-    name: Anatol Broder
-    url: http://penibelst.de/
+    name: Matthew Connelly
+    url: http://goodfrontend.com/
   lang: en
   favicons:
     - /assets/2014/04/21/favicon-152.png
@@ -41,5 +41,5 @@ noita:
       - name: Blog
         url: /blog/
       - name: Repository
-        url: https://github.com/penibelst/jekyll-noita
+        url: https://github.com/matConn/matconn.github.io
         class: small button
