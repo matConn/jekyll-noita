@@ -23,8 +23,8 @@ compress_html:
     envs: [travis]
 # theme
 noita:
-  name: Noita
-  description: Jekyll theme built with Foundation
+  name: Good Frontend
+  description: For good web development
   author:
     name: Anatol Broder
     url: http://penibelst.de/
