@@ -29,6 +29,7 @@ AddThis links will not work when certain adblock browser extensions are enabled;
 <a class="sharing addthis_button_facebook">facebook</a>
 <a class="sharing addthis_button_linkedin">linkedin</a>
 ```
+
 For the HTML, we use anchors each with a class that the AddThis scripts and stylesheets recognize, such as "addthis_button_facebook". Sharing will be fully functional when clicking on an anchor with this class for the corresponding platform. Meaning, these classes are required, or at least in this setup.
 
 The first class of "sharing" is a custom one that I use to denote that these anchors are for AddThis functionality, and to be styled as such. The JavaScript will point to the "sharing" class as well, but these are not required.
@@ -63,6 +64,7 @@ Email (not mailto, but AddThis's email sharing) and Facebook sharing stand out a
 
 If you change the content you want to share to Facebook and it isn't updating, you'll want to paste the url of the page you're sharing into Facebook's sharing debugger.
 While mailto will open your device's default mail client, then populate the subject based on the mailto attributes, "addthis_button_email" populates its fields based on the AddThis config variable (seen below).
+
 ```
 var addthis_config = addthis_config||{};
 addthis_config.ui_email_to = 'recipient@email.com';
