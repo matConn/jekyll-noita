@@ -51,7 +51,7 @@ layout: compress
       <ul class="right">
       {% for item in site.noita.topbar.right %}
         <li{% if item.class %} class="has-form"{% endif %}>
-          <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
+          <a href="{{ item.url }}" target="_blank" class="{{ item.class }}">{{ item.name }}</a>
         </li>
       {% endfor %}
       </ul>
