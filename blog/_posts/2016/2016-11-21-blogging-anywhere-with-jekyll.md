@@ -4,6 +4,7 @@ layout: post
 description: The freedom of blogging with static files from your phone via Github.
 robots: none
 published: true
+comments: true
 ---
 
 Jekyll is a flat-file CMS, relying on static files hosted in a Github repository, versus the traditional database and php to manage and serve content. And while I have nothing against those technologies, this just feels so much simpler.
