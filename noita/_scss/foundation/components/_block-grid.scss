@@ -130,3 +130,10 @@ $block-grid-media-queries: true !default;
     }
   }
 }
+
+// Disqus styles
+#disqus_thread{
+  @media screen and (max-width: 642px){
+    padding: 0 15px;
+  }
+}
