@@ -29,8 +29,8 @@ noita:
     name: Matthew Connelly
     url: http://goodfrontend.com/
   lang: en
-  favicons:
-    - /assets/2014/04/21/temp.png
+  # favicons:
+    # - /assets/2014/04/21/temp.png
   topbar:
     toggle: Menu
     right:
