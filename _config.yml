@@ -37,9 +37,9 @@ noita:
       - name: About
         url: /about/
       - name: Github
-        url: https://github.com/matConn
+        url: https://github.com/mattConn
       - name: Gists
-        url: https://gist.github.com/matConn
+        url: https://gist.github.com/mattConn
       - name: Codepen
         url: http://codepen.io/mattconn
       - name: Twitter
