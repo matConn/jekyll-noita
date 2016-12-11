@@ -1,9 +1,23 @@
 {% for post in site.posts %}
-<div class="post-short">
-  <h4>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <small>{{ post.date | date: '%F' }}</small>
-  </h4>
-  <p>{{ post.description }}</p>
-</div>
+
+{% if post.external %}
+    <div class="post-short">
+      <h4>
+        <a href="{{ post.link }}">{{ post.title }}</a>
+        <small>{{ post.date | date: '%F' }}</small>
+      </h4>
+      <p>{{ post.description }}</p>
+    </div>
+
+  {% else %}
+    <div class="post-short">
+      <h4>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <small>{{ post.date | date: '%F' }}</small>
+      </h4>
+      <p>{{ post.description }}</p>
+    </div>
+
+  {% endif %}
+
 {% endfor %}
