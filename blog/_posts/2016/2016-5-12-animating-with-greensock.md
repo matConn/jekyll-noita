@@ -1,0 +1,14 @@
+---
+title: Blogging Anywhere with Jekyll
+layout: post
+description: The freedom of blogging with static files from your phone via Github.
+robots: none
+published: false
+comments: true
+external: true
+link: google.com
+---
+
+## A New Post
+
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
