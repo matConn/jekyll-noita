@@ -1,9 +1,9 @@
 ---
-title: Blogging Anywhere with Jekyll
+title: Animating with GreenSock
 layout: post
 description: The freedom of blogging with static files from your phone via Github.
 robots: none
-published: true
+published: false
 comments: true
 external: true
 link: google.com
