@@ -6,7 +6,7 @@ robots: none
 published: true
 comments: true
 external: true
-link: google.com
+link: /unordered-list/green-sock
 ---
 
 ## A New Post
