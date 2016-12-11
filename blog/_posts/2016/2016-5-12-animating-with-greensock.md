@@ -1,7 +1,9 @@
 ---
 title: Animating with GreenSock
 layout: post
-description: The freedom of blogging with static files from your phone via Github.
+description: >-
+  A brief overview of the GSAP animation library and the power it brings to your
+  frontend arsenal.
 robots: none
 published: true
 comments: true
