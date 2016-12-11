@@ -2,8 +2,8 @@
 title: Animating with GreenSock
 layout: post
 description: >-
-  A brief overview of the GSAP animation library and the power it brings to your
-  frontend arsenal.
+  A brief overview of the GSAP JavaScript library and the animation power it
+  brings to your frontend arsenal.
 robots: none
 published: true
 comments: true
