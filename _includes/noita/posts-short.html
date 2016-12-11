@@ -3,7 +3,7 @@
 {% if post.external %}
     <div class="post-short">
       <h4>
-        <a href="{{site.noita.external | post.link}}" target="_blank">{{ post.title }}</a>
+        <a href="{{site.noita.external}}{{post.link}}" target="_blank">{{ post.title }}</a>
         <small>{{ post.date | date: '%F' }}</small>
       </h4>
       <p>{{ post.description }}</p>
