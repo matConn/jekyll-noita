@@ -3,7 +3,7 @@
 {% if post.external %}
     <div class="post-short">
       <h4>
-        <a href="{{ url | remove:'https://mattconn.github.io',{page.url} }}" target="_blank">{{ post.title }}</a>
+        <a href="{{ url | remove:'https://mattconn.github.io' | remove: {{page.url}} | {post.link} }}" target="_blank">{{ post.title }}</a>
         <small>{{ post.date | date: '%F' }}</small>
       </h4>
       <p>{{ post.description }}</p>
