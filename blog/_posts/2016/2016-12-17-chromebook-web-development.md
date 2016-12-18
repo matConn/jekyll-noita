@@ -1,5 +1,5 @@
 ---
-title: Blogging Anywhere with Jekyll
+title: Chromebook Web Development
 layout: post
 description: A breakdown of my current web development setup on my Samsung Chromebook 3.
 robots: none
