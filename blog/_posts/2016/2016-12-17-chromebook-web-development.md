@@ -19,4 +19,4 @@ A chroot, or change root, gives us the ability to run this second distro, withou
 This second distro is nice because if you are familiar with the Linux environment, you can proceed to work as you normally would, with Aptitude, Python, PHP and everyhing else already installed, and without all the limitations of ChromeOS.
 
 ## ChromeOS Is Still Very Nice, And An Integral Part Of This Setup
-ChromeOS makes for a very friendly desktop environment despite the red tape, and handles keyboard and trackpad input with its native drivers; I access the chroot via terminal to run scripts and install programs, but work with the ChromeOS GUI.
+ChromeOS makes for a very friendly desktop environment despite the red tape, and handles keyboard and trackpad input with its native drivers; I access the chroot via terminal to run scripts and install programs, but work with the ChromeOS GUI. For a text editor, I use [Caret-T](https://chrome.google.com/webstore/detail/caret-t/agiednhnlghobdgpgfdnbdaflnngmoij?hl=en), which is installed as a Chrome extension, and comes with intellisense-like auto-completion for JavaScript.
