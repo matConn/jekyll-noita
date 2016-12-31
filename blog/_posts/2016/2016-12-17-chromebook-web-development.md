@@ -6,6 +6,15 @@ robots: none
 published: true
 comments: true
 ---
+## Quick Rundown
+- **Machine:**
+	- Samsung Chromebook 3
+- **Environment:**
+	- ChromeOS for a GUI and native drivers
+    - Lubuntu for server-side programs and scripts (treated as headless)
+- **Text Editor/IDE**
+	- [Caret-T](https://chrome.google.com/webstore/detail/caret-t/agiednhnlghobdgpgfdnbdaflnngmoij?hl=en)
+
 I recently purchased a Samsung Chromebook 3 so I could work on projects during my long commute or at my local coffee shop without worrying about losing or breaking my other more expensive portable machine. It's really nice and light, and with a little configuration, makes for a great portable web development environemnt. After all, ChromeOS is itself a linux distro, but things are a little hidden in this environment as ChromeOS is meant to be easily accessible and to leave the user as little room as possible to screw things up.
 
 ## First, Enable Developer Mode
