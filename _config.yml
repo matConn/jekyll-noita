@@ -23,11 +23,11 @@ compress_html:
     envs: [travis]
 # theme
 noita:
-  name: Good Frontend
+  name: Matthew's Blog
   description: A blog about web development
   author:
     name: Matthew Connelly
-    url: http://goodfrontend.com/
+    url: https://mattconn.github.io/
   lang: en
   # favicons:
     # - /assets/2014/04/21/temp.png
