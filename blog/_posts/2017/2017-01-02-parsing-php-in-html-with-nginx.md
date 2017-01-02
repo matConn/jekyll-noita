@@ -8,8 +8,7 @@ robots: none
 comments: true
 published: true
 ---
-
----
+___
 ### My Environment
 - Nginx version
 	- 1.10.0
@@ -19,7 +18,7 @@ published: true
 	- php7.0-fpm
 - Kernel
 	- Ubuntu 16.04
----
+___
 
 ## The First And More Obvious Step
 
