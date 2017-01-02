@@ -9,7 +9,7 @@ comments: true
 published: true
 ---
 ___
-### My Environment
+### My Environment  
 - Nginx version
 	- 1.10.0
 - PHP version
@@ -44,7 +44,7 @@ The line we are looking for in `www.conf` (or the line you can add to `php-fpm.c
 
 `security.limit_extensions = .php .php3 .php4 .php5 .php7`
 
-Here we can add `.html` or `.htm`, or even `.js` (but then we'd have to add `.js` to our Nginx location block as we did to `.html` earlier).  
+Here we can add `.html` or `.htm`, or even `.js` (but then we'd have to add `.js` to our Nginx location block as we did with `.html` earlier).  
 
 Finally, we must now restart the php-fpm daemon, and of course, our Nginx server, for all changes to take effect.
 
