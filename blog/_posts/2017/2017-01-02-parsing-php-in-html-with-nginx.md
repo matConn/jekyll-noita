@@ -1,9 +1,12 @@
 ---
-title: "Parsing PHP In HTML Files With Nginx and PHP5 and Later"
+title: Parsing PHP In HTML Files With Nginx and PHP5 and Later
 layout: post
-description: "Enable in-line PHP parsing in HTML files on an Nginx server with PHP5 and later versions."
+description: >-
+  Enable in-line PHP parsing in HTML files on an Nginx server with PHP versions
+  5 and later.
 robots: none
 comments: true
+published: true
 ---
 
 ---
