@@ -1,9 +1,9 @@
 ---
-title: Nginx PHP Parsing In HTML With PHP5 And Later
+title: Parsing In-line PHP With Nginx
 layout: post
 description: >-
-  Enable in-line PHP parsing in HTML files on an Nginx server with PHP versions
-  5 and later.
+  Enable in-line PHP parsing with Nginx using PHP-FPM by following these steps;
+  code snippets included.
 robots: none
 comments: true
 published: true
