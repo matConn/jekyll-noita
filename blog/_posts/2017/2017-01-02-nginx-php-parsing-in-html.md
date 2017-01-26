@@ -1,9 +1,7 @@
 ---
 title: Parsing In-line PHP With Nginx
 layout: post
-description: >-
-  Enable in-line PHP parsing with Nginx using PHP-FPM by following these steps;
-  code snippets included.
+description: Enable in-line PHP parsing with Nginx; code snippets included.
 robots: none
 comments: true
 published: true
