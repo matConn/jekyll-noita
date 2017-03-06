@@ -7,7 +7,7 @@ published: true
 comments: true
 ---
 
-## Charlie Article "TL;DR"
+### Charlie Article "TL;DR"
 - **Link:** [http://helloitscharlie.com/tldr](http://helloitscharlie.com/tldr)
 - **ScrollMagic**
 	- Used for capturing scroll and firing scroll events.
@@ -20,7 +20,7 @@ comments: true
 - **Gulp**
 	- Used for task automation and project architecture 
 
-## Casa Apicii
+### Casa Apicii
 - **Link:** [http://casaapicii.com](http://casaapicii.com)
 - **Craft CMS**
 	- Used for highly-customizable client-facing content-management
@@ -30,7 +30,7 @@ comments: true
 - **SASS**
 - **Gulp**
 
-## Margaux NY
+### Margaux NY
 - **Link:** [https://margauxny.com/](https://margauxny.com/)
 - **Liquid Templating Language**
 	- Used as Shopify's primary templating language
@@ -41,7 +41,7 @@ comments: true
 - **SASS**
 - **Gulp**
 
-## Follow the money
+### Follow the money
 - **Link:** [http://partners.wsj.com/netflix/follow-the-money/](http://partners.wsj.com/netflix/follow-the-money/)
 - **Post-CSS**
 	- Used for writing custom CSS selectors and rules
@@ -50,7 +50,7 @@ comments: true
 - **SASS**
 - **Gulp**
 
-## Defy Hunger Together
+### Defy Hunger Together
 - **Link:** [http://partners.wsj.com/mini/defy-hunger-together/](http://partners.wsj.com/mini/defy-hunger-together/)
 - **Jade**
 - **JQuery**
