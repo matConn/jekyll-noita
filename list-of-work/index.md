@@ -10,7 +10,7 @@ comments: true
 ---
 
 ### Charlie Article "TL;DR"
-- **Link:** [http://helloitscharlie.com/tldr](http://helloitscharlie.com/tldr)
+- **Link:** <a href="http://helloitscharlie.com/tldr" target="_blank">http://helloitscharlie.com/tldr</a>
 - **ScrollMagic**
 	- Used for capturing scroll and firing scroll events.
 - **GreenSock**
@@ -23,7 +23,7 @@ comments: true
 	- Used for task automation and project architecture 
 
 ### Casa Apicii
-- **Link:** [http://casaapicii.com](http://casaapicii.com)
+- **Link:** <a href="http://casaapicii.com" target="_blank">http://casaapicii.com</a>
 - **Craft CMS**
 	- Used for highly-customizable client-facing content-management
 - **Slick**
@@ -33,7 +33,7 @@ comments: true
 - **Gulp**
 
 ### Margaux NY
-- **Link:** [https://margauxny.com/](https://margauxny.com/)
+- **Link:** <a href="https://margauxny.com/" target="_blank">https://margauxny.com/</a>
 - **Liquid Templating Language**
 	- Used as Shopify's primary templating language
 - **Jade**
@@ -44,7 +44,7 @@ comments: true
 - **Gulp**
 
 ### Follow the money
-- **Link:** [http://partners.wsj.com/netflix/follow-the-money/](http://partners.wsj.com/netflix/follow-the-money/)
+- **Link:** <a href="http://partners.wsj.com/netflix/follow-the-money/" target="_blank">http://partners.wsj.com/netflix/follow-the-money/</a>
 - **Post-CSS**
 	- Used for writing custom CSS selectors and rules
 - **Jade**
@@ -53,7 +53,7 @@ comments: true
 - **Gulp**
 
 ### Defy Hunger Together
-- **Link:** [http://partners.wsj.com/mini/defy-hunger-together/](http://partners.wsj.com/mini/defy-hunger-together/)
+- **Link:** <a href="http://partners.wsj.com/mini/defy-hunger-together/" target="_blank">http://partners.wsj.com/mini/defy-hunger-together/</a>
 - **Jade**
 - **JQuery**
 - **SASS**
