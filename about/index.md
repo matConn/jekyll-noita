@@ -4,6 +4,8 @@ title: About
 published: true
 ---
 
-This is a web development blog by Matthew Connelly, documenting his adventures, misadventures, and discoveries in the field. He works at [The Charles NYC](http://thecharlesnyc.com/) as a web developer.
+This is a web development blog by Matthew Connelly, documenting his adventures, misadventures, and discoveries in the field.  
 
-This blog is powered by Github pages and by flat-CMS [Jekyll](http://jekyllrb.com/). The theme used is [Noita](https://github.com/penibelst/jekyll-noita). Google Analytics is used for monitoring web traffic. Posts occasionally edited with [Prose](http://prose.io/).
+Matthew loves playing N64 games in emulators, reviving old machines with Linux, scripting animations and interactions for the web, and writing in third person.
+
+This blog is powered by Github pages and by flat-CMS [Jekyll](http://jekyllrb.com/); a nice way to write a blog post in Markdown. The theme used is [Noita](https://github.com/penibelst/jekyll-noita). Google Analytics is used for monitoring web traffic, but for fast load times, no other scripts have been used. Posts are occasionally edited with [Prose](http://prose.io/).
