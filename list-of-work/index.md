@@ -1,5 +1,5 @@
 ---
-title: List Of Work
+title: List of Work
 layout: post
 description: While not exhaustive, here is a list of projects that I have worked on and the technologies used, in order from most recent to oldest.
 robots: none
