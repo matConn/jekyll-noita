@@ -1,7 +1,7 @@
 ---
 title: List of Work
 layout: post
-description: While not exhaustive, here is a list of projects that I have worked on and the technologies used, in order from most recent to oldest.
+description: A non-exhaustive list of recent work and technologies used.
 robots: none
 published: true
 comments: true
