@@ -22,6 +22,8 @@ comments: true
 - **Gulp**
 	- Used for task automation and project architecture 
 
+---
+
 ### Casa Apicii
 - **Link:** <a href="http://casaapicii.com" target="_blank">http://casaapicii.com</a>
 - **Craft CMS**
@@ -31,6 +33,8 @@ comments: true
 - **JQuery**
 - **SASS**
 - **Gulp**
+
+---
 
 ### Margaux NY
 - **Link:** <a href="https://margauxny.com/" target="_blank">https://margauxny.com/</a>
@@ -43,6 +47,8 @@ comments: true
 - **SASS**
 - **Gulp**
 
+---
+
 ### Follow the money
 - **Link:** <a href="http://partners.wsj.com/netflix/follow-the-money/" target="_blank">http://partners.wsj.com/netflix/follow-the-money/</a>
 - **Post-CSS**
@@ -51,6 +57,8 @@ comments: true
 - **JQuery**
 - **SASS**
 - **Gulp**
+
+---
 
 ### Defy Hunger Together
 - **Link:** <a href="http://partners.wsj.com/mini/defy-hunger-together/" target="_blank">http://partners.wsj.com/mini/defy-hunger-together/</a>
