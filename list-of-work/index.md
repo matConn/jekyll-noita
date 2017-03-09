@@ -24,7 +24,7 @@ comments: true
 
 ---
 
-### Casa Apicii
+### Casa Apicii (Lead Developer)
 <a href="http://casaapicii.com" target="_blank">http://casaapicii.com</a>
 - **Craft CMS**
 	- Used for highly-customizable client-facing content-management
