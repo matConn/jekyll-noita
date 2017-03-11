@@ -38,10 +38,10 @@ noita:
         url: /about/
       - name: Github
         url: https://github.com/mattConn
-      - name: Code Snippets
-        url: https://gist.github.com/mattConn
       - name: Codepen
         url: http://codepen.io/mattconn
+      - name: Code Snippets
+        url: https://gist.github.com/mattConn
       - name: Twitter
         url: https://twitter.com/matterialdesign
   external: http://thecharlesnyc.com 
