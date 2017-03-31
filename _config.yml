@@ -23,8 +23,8 @@ compress_html:
     envs: [travis]
 # theme
 noita:
-  name: mattconn.club
-  description: A blog about web development
+  name: MattConn.club
+  description: A blog about Web Development and Linux
   author:
     name: Matthew Connelly
     url: http://mattconn.club/
