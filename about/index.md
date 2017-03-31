@@ -16,7 +16,7 @@ published: true
     }
 </style>
 
-This is a Web Development and Linux blog by Matthew Connelly documenting his discoveries and experiments.   
+This is a blog by Matthew Connelly, documenting his discoveries and experiments working primarily in Web Development and with Linux.   
 
 Matt loves games and emulators, reviving old machines with Linux, and scripting for the web with JavaScript.
 

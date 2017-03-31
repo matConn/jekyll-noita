@@ -24,7 +24,7 @@ compress_html:
 # theme
 noita:
   name: MattConn.club
-  description: Matt's Web Development and Linux blog
+  description: Matt's Development Blog
   author:
     name: Matthew Connelly
     url: http://mattconn.club/
