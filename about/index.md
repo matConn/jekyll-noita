@@ -6,7 +6,7 @@ published: true
 
 This is a Web Development and Linux blog by Matthew Connelly documenting his discoveries in the field.   
 
-Matthew loves games and emulators, reviving old machines with Linux, and scripting for the web with JavaScript.
+Matt loves games and emulators, reviving old machines with Linux, and scripting for the web with JavaScript.
 
 His text editor of choice is Visual Studio Code or Vim, and his development environment is something *nix; Ubuntu, Mac, or ChromeOS.
 
