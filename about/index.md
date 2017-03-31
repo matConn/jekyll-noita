@@ -4,6 +4,18 @@ title: About
 published: true
 ---
 
+<style>
+    code {
+        font-weight: normal;
+        color: #333;
+        background-color: white;
+        border-width: 0;
+        border-style: none;
+        border-color: white;
+        padding: 0;
+    }
+</style>
+
 This is a Web Development and Linux blog by Matthew Connelly documenting his discoveries and experiments.   
 
 Matt loves games and emulators, reviving old machines with Linux, and scripting for the web with JavaScript.
