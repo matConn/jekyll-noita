@@ -2,11 +2,11 @@
 title: Game Development - Text-based Level Editing and Phaser JS
 layout: post
 description: >-
-  How I'm visually representing a level's layout through text (think ASCII art
-  or Nethack) and using the Phaser JS game engine to render it all.
+  How I visually represent a level's layout through text (think ASCII art
+  or Nethack) and use the Phaser JS game engine to render it to a canvas.
 robots: none
 comments: true
-published: false
+published: true
 ---
 
 If you are familiar with roguelikes (turn-based dungeon crawlers) such as Nethack, then you are no doubt familiar with the idea of a game's elements being displayed entirely as ASCII characters. Here I will explain how I use a similar approach to create the layout of rooms in a game I am working on and how I use Phaser (JS game engine) to render the rooms based on my layouts.
