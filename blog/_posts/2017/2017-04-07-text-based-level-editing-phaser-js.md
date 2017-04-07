@@ -9,11 +9,8 @@ comments: true
 published: true
 ---
 <style>
-    code:first-child {
+    .room-array {
         border-style: none;
-    }
-	
-	pre:first-child {
 		background-color: #f8f8f8;
 	}
 </style>
@@ -25,7 +22,9 @@ Here I will explain how I use a similar approach to create the layout of rooms i
 
 The following array represents a single room: 
 
-```
+<div class="highlighter-rouge">
+<pre class="highlight room-array">
+<code class="room-array">
    [
     //1         12             25
     'ppppppppppppppppppppppppp',//1
@@ -48,7 +47,9 @@ The following array represents a single room:
     'ppppppppppppppppppppppppp',//18
     'ppppppppppppppppppppppppp' //19
     ]
-```  
+</code>
+</pre>
+</div>
 
 "E" represents an enemy, and "p" represents an immovable block that can be used as a platform or wall. A dash represents empty space, simply because I find it easier to read than whitespace, although I am not exactly counting dashes to find any kind of distance.  
 
