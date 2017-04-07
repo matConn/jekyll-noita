@@ -9,7 +9,7 @@ comments: true
 published: true
 ---
 <style>
-    .highlight-edit code {
+    code:first-of-type {
         border-style: none;
     }
 </style>
