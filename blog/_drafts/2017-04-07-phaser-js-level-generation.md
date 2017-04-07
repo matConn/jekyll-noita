@@ -1,13 +1,15 @@
 ---
 title: Game Development - Text-based Level Editing and Phaser JS
 layout: post
-description: How I use only text to visually represent and render a level's layout; think ASCII art or Nethack.
+description: >-
+  How I use only text to visually represent and render a level's layout; think
+  ASCII art or Nethack.
 robots: none
 comments: true
 published: false
 ---
 
-If you are famiiar with roguelikes (turn-based dungeon crawlers) such as Nethack, then you are no doubt familiar with the idea of a game's elements being displayed entirely as ASCII characters. Here I will explain how I use a similar approach to create the layout of rooms in a game I am working on and how I use Phaser (JS game engine) to render the rooms based on my layouts.
+If you are familiar with roguelikes (turn-based dungeon crawlers) such as Nethack, then you are no doubt familiar with the idea of a game's elements being displayed entirely as ASCII characters. Here I will explain how I use a similar approach to create the layout of rooms in a game I am working on and how I use Phaser (JS game engine) to render the rooms based on my layouts.
 
 The following array represents a single room: 
  
@@ -36,8 +38,9 @@ The following array represents a single room:
     ]
 ```  
 
-"E" represents and enemy, and "p" represents a platform. A dash represents empty space, simply because I think it would be easier to read than whitespace, although I am not exactly counting dashes to find any kind of distance.  
-The commented-out numbers on top and on the right represent columns and rows respectively; I have divided a canvas 800 pixles wide and 600 pixels high into 25 by 19 32 pixel squares.  
+"E" represents an enemy, and "p" represents a platform. A dash represents empty space, simply because I think it would be easier to read than whitespace, although I am not exactly counting dashes to find any kind of distance.  
+
+The commented-out numbers on top and on the right represent columns and rows respectively; I have divided a canvas 800 pixels wide and 600 pixels high into 25-by-19 32-pixel squares.  
 
 How and when a room like the one shown above is drawn can be described by the following:  
 - The player collides with the edge of the world (canvas)
@@ -46,8 +49,9 @@ How and when a room like the one shown above is drawn can be described by the fo
 - A variable integer is then increased or decreased by 1 depending on the edge of collision (right, +1; left, -1), and this integer is then used as our room's index in our level array.
 - After getting the room we want by index, we check each string within the room array; each of these strings can be looked at as a row of things that can be rendered onto the canvas, from the top of the canvas to the bottom.
 - For each row (string) in the room array, we check each character by its index using `String.charAt()`.
-- Using a switch statement, the character can be matched to a case; if and after being matched, we will call Phaser's `group.create()` function.
-- Using the room layout above, `level1[0][8].charAt(4)` would match a case of `p` in our switch statement.  
+- Using a switch statement, the character can be matched to a case; if and after being matched, we will call Phaser's `group.create()` function to render the matched sprite or image.
+- Using the room layout above, `level1[0][8].charAt(4)` would match a case of `p` in our switch statement:
+	- 0 is the index of the room (it is the only room shown, but typically there would be multiple rooms), 8 is the index of the row, and the 4th character of the 8th row is a `p`.  
 
 An abridged version of the room-drawing function can be seen below; this is the function to be called on collision.
 
@@ -64,21 +68,21 @@ function drawRoom(room){
     }
 }
 ```  
-This room-drawing function currently only works with one level but should work with 
+This room-drawing function currently only works with one level but should scale to accommodate multiple levels and work similarly if not identically. 
 
-The room system works as detailed in pseudocode below, with each "column" actually representing a single character in a string:  
+The room system works as detailed in pseudo-code below, with each "column" actually representing a single character in a string:  
 
 ```
 level1 [
-	room1[ 
+	room1 [ 
 		row1 'column1 column2 column3',
 		row2 'column1 column2 column3',
 		row3 'column1 column2 column3'
 	],
-	room2[ 
+	room2 [ 
 		row1 'column1 column2 column3',
 		row2 'column1 column2 column3',
 		row3 'column1 column2 column3'
 	]
 ]
-```	
+```
