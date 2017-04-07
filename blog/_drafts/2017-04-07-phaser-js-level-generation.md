@@ -1,15 +1,15 @@
 ---
 title: Game Development - Text-based Level Editing and Phaser JS
 layout: post
-description: How I used only text to visually represent and render a level's layout.
+description: How I use only text to visually represent and render a level's layout; think ASCII art or Nethack.
 robots: none
 comments: true
 published: false
 ---
 
-If you are famiiar with roguelikes (turn-based dungeon crawlers), then you are no doubt familiar with the idea of a game's elements being displayed entirely as ASCII characters.  
+If you are famiiar with roguelikes (turn-based dungeon crawlers) such as Nethack, then you are no doubt familiar with the idea of a game's elements being displayed entirely as ASCII characters. Here I will explain how I use a similar approach to create the layout of rooms in a game I am working on and how I use Phaser (JS game engine) to render the rooms based on my layouts.
 
-The following array represents a single room in a game I am working on: 
+The following array represents a single room: 
  
 ```
    [
@@ -37,28 +37,48 @@ The following array represents a single room in a game I am working on:
 ```  
 
 "E" represents and enemy, and "p" represents a platform. A dash represents empty space, simply because I think it would be easier to read than whitespace, although I am not exactly counting dashes to find any kind of distance.  
-The commented-out numbers on top and on the right represent columns and rows, respectively; I have divided a canvas 800 pixles wide and 600 pixels high into 25 by 19 32 pixel squares. Level creation is now highy managable.  
+The commented-out numbers on top and on the right represent columns and rows respectively; I have divided a canvas 800 pixles wide and 600 pixels high into 25 by 19 32 pixel squares.  
 
-In a nutshell, how and when a room is drawn can be described as such:  
+How and when a room like the one shown above is drawn can be described by the following:  
 - The player collides with the edge of the world (canvas)
-- The player's x-position is then changed to the position opposite the edge of the collision
+- The player's x-position is then changed to the position of the edge opposite of the collision (right edge collision, player moved to far-left of canvas; left edge collision, player moved to far-right of canvas); this gives the appearance of entering a new room
 - The room is then cleared, using Phaser's `sprite.kill()` method
-- A variable integer is then increased or decreased by 1, depending on the direction traveled, and this integer is then used as our room's index in our level array.
-- After getting the room we want, we check each array within the room array; each of these arrays can be looked as a row of things that can be rendered onto the canvas, from the top of the canvas to the bottom.
-- For each row array in the room array, when check each character by its index using `String.charAt()`.
-- Using a switch statement, the character can be matched to a case, and then we will call Phaser's `group.create()` function.
-- For example, using the layout above, `level1[0][8].charAt(4)` would match a case of `p` in our switch statement. `group.create()` takes arguments of x-position, y-position, and sprite name when choosing where and what to render to the canvas, so after matching `p` in our switch, HERE  
+- A variable integer is then increased or decreased by 1 depending on the edge of collision (right, +1; left, -1), and this integer is then used as our room's index in our level array.
+- After getting the room we want by index, we check each string within the room array; each of these strings can be looked at as a row of things that can be rendered onto the canvas, from the top of the canvas to the bottom.
+- For each row (string) in the room array, we check each character by its index using `String.charAt()`.
+- Using a switch statement, the character can be matched to a case; if and after being matched, we will call Phaser's `group.create()` function.
+- Using the room layout above, `level1[0][8].charAt(4)` would match a case of `p` in our switch statement.  
+
+An abridged version of the room-drawing function can be seen below; this is the function to be called on collision.
 
 ```
-function drawRoom(level){
-    for(var room in level){
-        for(var rows=0; rows <= level[room].length; rows++){
-            switch (level[room].charAt(rows)){
+function drawRoom(room){
+    for(var row in room){
+        for(var column=0; column <=  room[row].length; column++){
+            switch (room[row].charAt(column)){
                 case 'p':
-                    platforms.create(rows*32, room*32, 'platform');                 
+                    platform = platforms.create(column*32, row*32, 'platform-image');
                     break;
             }
         }
     }
 }
+```  
+This room-drawing function currently only works with one level but should work with 
+
+The room system works as detailed in pseudocode below, with each "column" actually representing a single character in a string:  
+
 ```
+level1 [
+	room1[ 
+		row1 'column1 column2 column3',
+		row2 'column1 column2 column3',
+		row3 'column1 column2 column3'
+	],
+	room2[ 
+		row1 'column1 column2 column3',
+		row2 'column1 column2 column3',
+		row3 'column1 column2 column3'
+	]
+]
+```	
