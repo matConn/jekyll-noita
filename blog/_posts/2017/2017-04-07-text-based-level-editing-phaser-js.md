@@ -67,6 +67,7 @@ The commented-out numbers on top and on the right represent columns and rows res
 1. A variable integer is then increased or decreased by 1 depending on the edge of collision (right, +1; left, -1), and this integer is then used as our room's index in our level array.
 	- So if our current room's index is 0 (the first room in the level array), and the player collides with the right edge of the canvas, our integer increases to 1, and we render the room who's index is 1 (our second room in the level array)  
 
+
 1. After getting the room we want by index, we check each string within the room array; each of these strings can be looked at as a row of things that can be rendered onto the canvas, from the top of the canvas to the bottom.  
 
 1. For each row (string) in the room array, we check each character by its index using `String.charAt()`.  
