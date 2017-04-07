@@ -57,7 +57,7 @@ The following array represents a single room:
 
 The commented-out numbers on top and on the right represent columns and rows respectively; I have divided a canvas 800 pixels wide and 600 pixels high into 25-by-19 32-pixel squares.  
 
-How and when a room like the one shown above is drawn can be described by the following:  
+### How and when a room like the one shown above is drawn can be described by the following:  
 1. The player collides with the edge of the world (canvas)  
 
 1. The player's x-position is then changed to the position of the edge opposite of the collision (right edge collision, player moved to far-left of canvas; left edge collision, player moved to far-right of canvas); this gives the appearance of entering a new room  
@@ -77,7 +77,8 @@ How and when a room like the one shown above is drawn can be described by the fo
 So using the room layout above, `level1[0][8].charAt(4)` would match a case of `p` in our switch statement:
 	- 0 is the index of the room (it is the only room shown, but typically there would be multiple rooms), 8 is the index of the row, and the 4th character of the 8th row is a `p`.  
 
-An abridged version of the room-drawing function can be seen below; this is the function to be called on collision.
+### An abridged version of the room-drawing function
+This is the function to be called on collision.
 
 ```
 function drawRoom(room){
