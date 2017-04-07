@@ -28,6 +28,3 @@ Initially, there was no sound support for my model. This stopped from installing
 After a full install, made easy thanks to GalliumOS's excellent documentation, and then finally a GalliumOS update, to my surprise, internal audio worked, and so I'm now using my Chromebook as I please, with the ability to install my favorite programs such as Visual Studio Code (a program I wanted on my Chromebook from the very start), WINE, and all the rest; with that update came the patch that fixed my model's sound issue.  
 
 As I find myself installing and re-installing Linux pretty often, as with the example of setting up chroots mentioned earlier, I began tracking my environment's packages, as well as Visual Studio Code extensions, which you can check out in a repository [here](https://github.com/mattConn/ubuntu-environment-setup).
-```
-//test
-```
