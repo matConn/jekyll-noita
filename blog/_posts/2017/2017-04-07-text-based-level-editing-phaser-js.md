@@ -21,7 +21,6 @@ Here I will explain how I use a similar approach to create the layout of rooms i
 
 The following array represents a single room: 
 
-<div class="highlight-edit">
 ```
    [
     //1         12             25
@@ -46,7 +45,6 @@ The following array represents a single room:
     'ppppppppppppppppppppppppp' //19
     ]
 ```  
-</div>
 
 "E" represents an enemy, and "p" represents a platform. A dash represents empty space, simply because I think it would be easier to read than whitespace, although I am not exactly counting dashes to find any kind of distance.  
 
