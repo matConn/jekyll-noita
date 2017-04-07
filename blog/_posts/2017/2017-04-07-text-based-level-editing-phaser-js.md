@@ -12,6 +12,7 @@ published: true
     .room-array {
         border-style: none;
 		background-color: #f8f8f8;
+		font-size: 12px;
 	}
 </style>
 
