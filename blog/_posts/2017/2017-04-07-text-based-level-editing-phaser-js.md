@@ -12,6 +12,10 @@ published: true
     code:first-of-type {
         border-style: none;
     }
+	
+	pre:first-of-type {
+		background-color: #f8f8f8;
+	}
 </style>
 
 
