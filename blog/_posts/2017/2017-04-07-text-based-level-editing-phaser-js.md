@@ -24,29 +24,29 @@ The following array represents a single room:
 ```
    [
     //1         12             25
-    '-------------------------',//1
-    '-------------------------',//2
-    '-------------------------',//3
-    '-------------------------',//4
-    '-------------------------',//5
-    '-------------------------',//6
-    '-------------------------',//7
-    '-------E-E---------------',//8
-    '----pppppp----------ppppp',//9
-    '-------------------------',//10
-    '-------------------------',//11
-    '-------------------------',//12
-    '-------------------------',//13
-    '-------------------------',//14
-    '-------------------------',//15
-    '-------------------------',//16
-    '-------------------------',//17
+    'ppppppppppppppppppppppppp',//1
+    'p------------------------',//2
+    'p------------------------',//3
+    'pppppppppp---------------',//4
+    'p----------------E-------',//5
+    'p--------------pppppppppp',//6
+    'p------------------------',//7
+    'p------E-E---------------',//8
+    'pppppppppp---------------',//9
+    'p------------------------',//10
+    'p----------------E-E-E---',//11
+    'p--------------pppppppppp',//12
+    'p-----------------------p',//13
+    'p-----------------------p',//14
+    'p-----------ppppppppppppp',//15
+    'p---------ppppppppppppppp',//16
+    'p------pppppppppppppppppp',//17
     'ppppppppppppppppppppppppp',//18
     'ppppppppppppppppppppppppp' //19
     ]
 ```  
 
-"E" represents an enemy, and "p" represents a platform. A dash represents empty space, simply because I think it would be easier to read than whitespace, although I am not exactly counting dashes to find any kind of distance.  
+"E" represents an enemy, and "p" represents an immovable block that can be used as a platform or wall. A dash represents empty space, simply because I find it easier to read than whitespace, although I am not exactly counting dashes to find any kind of distance.  
 
 The commented-out numbers on top and on the right represent columns and rows respectively; I have divided a canvas 800 pixels wide and 600 pixels high into 25-by-19 32-pixel squares.  
 
