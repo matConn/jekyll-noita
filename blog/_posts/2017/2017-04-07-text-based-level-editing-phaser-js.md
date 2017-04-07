@@ -9,11 +9,11 @@ comments: true
 published: true
 ---
 <style>
-    code:first-of-type {
+    code:first-child {
         border-style: none;
     }
 	
-	pre:first-of-type {
+	pre:first-child {
 		background-color: #f8f8f8;
 	}
 </style>
