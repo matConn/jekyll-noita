@@ -2,8 +2,8 @@
 title: Game Development - Text-based Level Editing and Phaser JS
 layout: post
 description: >-
-  How I use only text to visually represent and render a level's layout; think
-  ASCII art or Nethack.
+  How I'm visually representing a level's layout through text (think ASCII art
+  or Nethack) and using the Phaser JS game engine to render it all.
 robots: none
 comments: true
 published: false
