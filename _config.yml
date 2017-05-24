@@ -25,7 +25,7 @@ compress_html:
 noita:
   domain: mattconn.io
   name: MattConn.io
-  description: Matt's Development Blog
+  description: Development Blog
   author:
     name: Matthew Connelly
     url: http://mattconn.io/
