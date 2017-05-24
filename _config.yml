@@ -23,11 +23,12 @@ compress_html:
     envs: [travis]
 # theme
 noita:
-  name: MattConn.club
+  domain: mattconn.io
+  name: MattConn.io
   description: Matt's Development Blog
   author:
     name: Matthew Connelly
-    url: http://mattconn.club/
+    url: http://mattconn.io/
   lang: en
   favicons:
     - /assets/tux_favicon.ico

@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-I love my Chromebook (as evidenced in [this](http://mattconn.club/blog/2016/chromebook-web-development/) post); I bring it everywhere as it comes in handy for long commutes and, weighing in at around 3 pounds, isn't the least bit cumbersome.  
+I love my Chromebook (as evidenced in [this](http://mattconn.io/blog/2016/chromebook-web-development/) post); I bring it everywhere as it comes in handy for long commutes and, weighing in at around 3 pounds, isn't the least bit cumbersome.  
 
 However, the restrictions ChromeOS placed on me had been noticeable since the beginning; and I knew I would be restricted to Chrome Apps, extensions, and Play store applications, but didn't count on how annoying this restriction would wind up being. Fortunately, there were workarounds.  
 
