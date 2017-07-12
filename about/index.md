@@ -3,7 +3,6 @@ layout: page
 title: About
 published: true
 ---
-<img src="https://avatars2.githubusercontent.com/u/10191146?v=3&s=460" style="width:226px; height:230px;">
 
 I'm Matthew Connelly; a web developer with a BS in communications from The College of Staten Island. I'm currently pursuing a BS in computer science at the same college, and I previously worked as a frontend developer for The Charles NYC.  
 
