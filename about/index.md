@@ -4,6 +4,8 @@ title: About
 published: true
 ---
 
+![Me](/assets/me.jpg "style=width:225px; height:229px;")
+
 I'm Matthew Connelly; a web developer with a BS in communications from The College of Staten Island. I'm currently pursuing a BS in computer science at the same college, and I previously worked as a frontend developer for The Charles NYC.  
 
 This blog is where I write about [projects](https://github.com/mattConn) I've been working on and anything interesting I might discover during the development process.  
