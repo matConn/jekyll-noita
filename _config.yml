@@ -39,8 +39,6 @@ noita:
         url: /about/
       - name: Github
         url: https://github.com/mattConn
-      - name: Codepen
-        url: http://codepen.io/mattconn
       - name: Gists
         url: https://gist.github.com/mattConn
       - name: Dotfiles
