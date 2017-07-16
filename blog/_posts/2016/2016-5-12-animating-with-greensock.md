@@ -17,8 +17,8 @@ The real beauty of GreenSock is how much control it affords. Much like the anima
 
 After building out a complex sequence of animations, you’ll find GreenSock’s afforded control becomes especially important when changing the animation or timing of your sequence. Whether it be within a single tween or an entire timeline, making changes is easy and painless, and will not affect adjacent animations.
 
-<iframe height='265' scrolling='no' title='Greensock Pacman, Nested Timelines' src='//codepen.io/mattConn/embed/aNZggN/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mattConn/pen/aNZggN/'>Greensock Pacman, Nested Timelines</a> by Matthew Connelly (<a href='https://codepen.io/mattConn'>@mattConn</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<p data-height="265" data-theme-id="0" data-slug-hash="aNZggN" data-default-tab="css,result" data-user="mattConn" data-embed-version="2" data-pen-title="Greensock Pacman, Nested Timelines" class="codepen">See the Pen <a href="https://codepen.io/mattConn/pen/aNZggN/">Greensock Pacman, Nested Timelines</a> by Matthew Connelly (<a href="https://codepen.io/mattConn">@mattConn</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 Using GreenSock, I made a brief animation (above) detailing the interaction between PacMan and a ghost. To create these two characters, I styled and positioned multiple divs, essentially “building” them. To make them “interact,” I placed all of their actions (tweens) into their own respective timelines in order to control the timing of each action.
 
