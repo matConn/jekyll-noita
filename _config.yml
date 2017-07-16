@@ -32,11 +32,13 @@ noita:
   lang: en
   favicons:
     - /assets/tux_favicon.ico
+#links rendered in _noita/default.html
   topbar:
     toggle: Menu
     right:
       - name: About
         url: /about/
+		outgoing: false
       - name: Github
         url: https://github.com/mattConn
       - name: Gists
@@ -45,3 +47,4 @@ noita:
         url: https://github.com/mattConn/dotfiles 
       - name: Bookmarks 
         url: /bookmarks/ 
+		outgoing: false
