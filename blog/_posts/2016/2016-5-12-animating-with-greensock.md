@@ -9,7 +9,7 @@ published: true
 comments: true
 ---
 
-_Originally written for [The Charles NYC](https://thecharlesnyc.com/unordered-list/green-sock target="_blank")._
+<i><p>Originally written for <a href="https://thecharlesnyc.com/unordered-list/green-sock" target="_blank">The Charles NYC</a>.</p>
 
 I've recently been introduced to animating with the powerful JavaScript library GreenSock. It’s quite impressive, notably for how manageable its animations are. Unlike CSS3, which measures its animations with percentages, GreenSock uses seconds for timing. GreenSock is also capable of applying multiple animations to a single element, each running either consecutively or simultaneously, which is something CSS3 is not capable of either.
 
