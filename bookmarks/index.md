@@ -4,7 +4,6 @@ layout: post
 description: Links to useful resources.
 robots: none
 published: true
-comments: true
 ---
 
 - [Making your first Phaser game: Part 1 - Introduction - Learn - Phaser](http://phaser.io/tutorials/making-your-first-phaser-game)
