@@ -41,10 +41,13 @@ noita:
 		outgoing: false
       - name: Github
         url: https://github.com/mattConn
+		outgoing: true 
       - name: Gists
         url: https://gist.github.com/mattConn
+		outgoing: true 
       - name: Dotfiles
         url: https://github.com/mattConn/dotfiles 
+		outgoing: true 
       - name: Bookmarks 
         url: /bookmarks/ 
 		outgoing: false
