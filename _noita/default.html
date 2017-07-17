@@ -54,7 +54,7 @@ published: true
 
       {% for item in site.noita.topbar.right %}
         <li{% if item.class %} class="has-form"{% endif %}>
-          <a href="{{ item.url }}" {% if item.url != "/about/" or "/bookmarks/"%} target="_blank" {% endif %}" class="{{ item.class }}">{{ item.name }}</a>
+          <a href="{{ item.url }}" {% if item.url != "/about/"%} target="_blank" {% endif %}" class="{{ item.class }}">{{ item.name }}</a>
         </li>
       {% endfor %}
       </ul>
