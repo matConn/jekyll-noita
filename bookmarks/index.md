@@ -15,7 +15,7 @@ published: true
 - [Simple GreenSock Tutorial - Your first steps with GSAP](https://ihatetomatoes.net/simple-greensock-tutorial-your-first-steps-with-gsap/)
 - [Node Scripting](http://robdodson.me/how-to-run-a-node-script-from-the-command-line/)
 - [For, while, and each loops in Sass – clubmate.fi](http://clubmate.fi/for-while-and-each-loops-in-sass/)
-- [Loupe](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
+- [Loupe - Visualize JavaScript call stack](http://latentflip.com/loupe)
 - [Three locks for your SSH door](https://www.ibm.com/developerworks/aix/library/au-sshlocks/)
 - [The Beginner's Guide to three.js - Treehouse Blog](http://blog.teamtreehouse.com/the-beginners-guide-to-three-js)
 - [Boilerplate Builder for three.js](https://jeromeetienne.github.io/threejsboilerplatebuilder/)
