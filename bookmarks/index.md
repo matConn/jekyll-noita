@@ -28,5 +28,5 @@ published: true
 - [C Coding Standard - Naming Conventions](https://users.ece.cmu.edu/~eno/coding/CCodingStandard.html#stacknames)
 - [Basic Inheritance with JavaScript Constructors - A Drip of JavaScript](http://adripofjavascript.com/blog/drips/basic-inheritance-with-javascript-constructors.html)
 - [One Big Header File - C Headers](http://wiki.c2.com/?OneBigHeaderFile)
-
-
+- [Reset Ubuntu/Debian password via chroot](https://www.howtogeek.com/howto/linux/reset-your-forgotten-ubuntu-password-in-2-minutes-or-less/)
+- [Boot-Repair - fix grub2 failure to boot](https://sourceforge.net/projects/boot-repair/)
