@@ -32,3 +32,4 @@ published: true
 - [Boot-Repair - fix grub2 failure to boot](https://sourceforge.net/projects/boot-repair/)
 - [Installing xfce icon themes](https://www.quora.com/How-do-I-install-the-Greybird-theme-with-the-Elementary-Xfce-icon-theme-on-Debian-8-Xfce)
 - [Desktop environments ranked by RAM consumption](https://flexion.org/posts/2014-03-memory-consumption-of-linux-desktop-environments/)
+- [Increase Thinkpad trackpoint speed via xinput](https://www.reddit.com/r/thinkpad/comments/5dh4pk/thinkpad_13_on_linux_trackpoint_speed/?st=j5bmmtqa&sh=000fe990)
