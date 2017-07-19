@@ -31,3 +31,4 @@ published: true
 - [Reset Ubuntu/Debian password via chroot](https://www.howtogeek.com/howto/linux/reset-your-forgotten-ubuntu-password-in-2-minutes-or-less/)
 - [Boot-Repair - fix grub2 failure to boot](https://sourceforge.net/projects/boot-repair/)
 - [Installing xfce icon themes](https://www.quora.com/How-do-I-install-the-Greybird-theme-with-the-Elementary-Xfce-icon-theme-on-Debian-8-Xfce)
+- [Desktop environments ranked by RAM consumption](https://flexion.org/posts/2014-03-memory-consumption-of-linux-desktop-environments/)
